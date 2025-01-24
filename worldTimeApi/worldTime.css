@@ -1,0 +1,25 @@
+.clocks {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.clockDiv {
+    margin: 10px;
+}
+
+.clock {
+    display: flex;
+    border: 15px solid var(--accent-2);
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 60px;
+    width: 200px;
+    justify-content: center;
+    background-color: var(--gray);
+    color: whitesmoke;
+}
+
+.label {
+    font-size: 24px;
+}
